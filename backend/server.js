@@ -36,5 +36,6 @@ deleteData().then(async () => {
 	console.log("DELETED DATABASE DATA");
 	await generateFakeData();
 	console.log("GENERATED FAKE DATA");
+	addUser('admin','admin');
+	console.log("ADDED DEFAULT USER: admin, admin ")
 });
-// addUser('alexandrupop','parola');
