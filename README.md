@@ -1,4 +1,4 @@
-# Proiect Tehnologii Web
+# Proiect TMW
 
 Bună ziua,
 Proiectul a fost realizat de Lupu Andy Constantin, Orzan Teodora Diana și Pop Alexandru.
