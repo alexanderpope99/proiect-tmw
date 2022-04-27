@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "frontend-mobile",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

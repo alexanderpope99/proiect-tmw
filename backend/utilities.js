@@ -13,8 +13,12 @@ module.exports = {
 		await CategoryService.deleteAll();
 	},
 	generateFakeData: async () => {
+		let categories = [];
 		for (let i = 0; i <= 3; i++) {
 			let categoryName = faker.commerce.department();
+			while (categories.includes(categoryName))
+				categoryName = faker.commerce.department();
+			categories.push(categoryName);
 			let category = await CategoryService.create(categoryName, faker.commerce.color())
 			let randomInt = getRndInteger(3, 6);
 			for (let j = 0; j <= randomInt; j++) {

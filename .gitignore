@@ -2,10 +2,11 @@
 
 # dependencies
 /backend/node_modules
-/frontend/node_modules
-/frontend/.eslintcache
-/frontend/.pnp
-/frontend/.pnp.js
+/frontend-web/node_modules
+/frontend-web/.eslintcache
+/frontend-web/.pnp
+/frontend-web/.pnp.js
+/frontend-mobile/node_modules
 
 # testing
 /coverage
